@@ -1,7 +1,3 @@
-.k-listview .k-block {
-  background: red !important;
-  margin: 0!important;
-}
 /* Kendo skin */
 .k-theme-test-class,
 .ktb-theme-id-material {
@@ -3867,4 +3863,9 @@ table.k-editor {
   color: #000000;
   background-color: #dbdbdb;
   border-color: #dbdbdb;
+}
+/* only for me */
+.k-listview .k-block {
+  background: red !important;
+  margin: 0!important;
 }
