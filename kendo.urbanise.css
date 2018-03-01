@@ -3873,6 +3873,8 @@ table.k-editor {
 }
 #menu {
   background: #2b333e;
+  box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
+  z-index: 900;
 }
 #menu .k-link {
   font-family: 'Roboto', sans-serif !important;
@@ -3884,4 +3886,7 @@ table.k-editor {
 #menu .k-item .k-panel,
 #menu .k-link .k-panel {
   background: rgba(255, 255, 255, 0.05);
+}
+.k-splitbar {
+  z-index: 990;
 }
