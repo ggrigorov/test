@@ -3904,3 +3904,9 @@ table.k-editor {
   margin: 0;
   padding: 0;
 }
+#mapOptions .k-block[role="option"] .k-button {
+  display: none;
+}
+#mapOptions .k-block[role="option"]:hover .k-button {
+  display: inline-block;
+}
