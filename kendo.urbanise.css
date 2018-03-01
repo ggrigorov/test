@@ -3871,8 +3871,8 @@ table.k-editor {
   font-weight: 400;
   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
-* {
-  font-family: 'Roboto', sans-serif;
+html * {
+  font-family: 'Roboto', sans-serif !important;
 }
 #menu {
   background: #2b333e;
