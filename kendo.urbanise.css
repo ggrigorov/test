@@ -3900,4 +3900,7 @@ table.k-editor {
   background: transparent;
   font-family: 'Roboto', sans-serif;
   color: rgba(0, 0, 0, 0.87);
+  border: none;
+  margin: 0;
+  padding: 0;
 }
