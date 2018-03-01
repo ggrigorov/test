@@ -3907,6 +3907,6 @@ table.k-editor {
 #mapOptions .k-block[role="option"] .k-button {
   display: none;
 }
-#mapOptions .k-block[role="option"] .k-button:hover {
+#mapOptions .k-block[role="option"]:hover .k-button {
   display: block;
 }
