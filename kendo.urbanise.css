@@ -3880,4 +3880,5 @@ table.k-editor {
 #menu .k-link {
   background: #2b333e;
   color: #ffffff !important;
+  border-bottom-color: transparent;
 }
