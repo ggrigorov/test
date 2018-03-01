@@ -3865,6 +3865,15 @@ table.k-editor {
   border-color: #dbdbdb;
 }
 /* only for me */
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
+}
+* {
+  font-family: 'Roboto', sans-serif;
+}
 #menu {
   background: #2b333e;
 }
