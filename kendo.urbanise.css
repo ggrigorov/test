@@ -3871,13 +3871,11 @@ table.k-editor {
   font-weight: 400;
   src: local('Roboto'), local('Roboto-Regular'), url(https://fonts.gstatic.com/s/roboto/v18/KFOmCnqEu92Fr1Mu4mxP.ttf) format('truetype');
 }
-html * {
-  font-family: 'Roboto', sans-serif !important;
-}
 #menu {
   background: #2b333e;
 }
 #menu .k-link {
+  font-family: 'Roboto', sans-serif !important;
   background: #2b333e;
   color: #ffffff !important;
   border-bottom-color: transparent;
