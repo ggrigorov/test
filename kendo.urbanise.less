@@ -27,7 +27,7 @@
 
 @color-dark: #2b333e;
 @inverted-text-color:#ffffff;
-
+@border-color:rgba(255,255,255,0.1);
 
 @import "type-material.less";
 
@@ -53,7 +53,7 @@
     font-family: 'Roboto', sans-serif !important;
     background: @color-dark;
     color: @inverted-text-color !important;
-    border-bottom-color: transparent;
+    border-bottom-color: @border-color;
   }
   .k-item, .k-link
   {

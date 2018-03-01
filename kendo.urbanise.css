@@ -3878,5 +3878,5 @@ table.k-editor {
   font-family: 'Roboto', sans-serif !important;
   background: #2b333e;
   color: #ffffff !important;
-  border-bottom-color: transparent;
+  border-bottom-color: rgba(255, 255, 255, 0.1);
 }
