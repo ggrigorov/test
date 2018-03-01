@@ -3870,7 +3870,7 @@ table.k-editor {
 }
 #menu .k-link {
   background: #2b333e;
-  color: #ffffff;
+  color: #ffffff !important;
 }
 #menu .k-item,
 #menu .k-link {
