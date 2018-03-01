@@ -3893,3 +3893,9 @@ table.k-editor {
 .k-splitbar {
   z-index: 900;
 }
+#mapOptions .k-widget {
+  background: #fafafa;
+}
+#mapOptions .k-block[role="option"] {
+  background: transparent;
+}
