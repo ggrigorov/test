@@ -3868,6 +3868,7 @@ table.k-editor {
 #menu {
   background: #2b333e;
 }
-#menu .k-item {
+#menu .k-item,
+#menu .k-link {
   height: 48px;
 }
