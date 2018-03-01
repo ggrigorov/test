@@ -27,7 +27,7 @@
 
 @color-dark: #2b333e;
 @inverted-text-color:#ffffff;
-@border-color:rgba(255,255,255,0.1);
+@overlay-light-color:rgba(255,255,255,0.05);
 
 @import "type-material.less";
 
@@ -53,11 +53,16 @@
     font-family: 'Roboto', sans-serif !important;
     background: @color-dark;
     color: @inverted-text-color !important;
-    border-bottom-color: @border-color;
+    border-bottom-color: @overlay-light-color;
+    min-height: 2em;
   }
+
   .k-item, .k-link
   {
-
+    .k-panel
+    {
+      background: @overlay-light-color;
+    }
     //height: 48px;
   }
 }

@@ -3878,5 +3878,10 @@ table.k-editor {
   font-family: 'Roboto', sans-serif !important;
   background: #2b333e;
   color: #ffffff !important;
-  border-bottom-color: rgba(255, 255, 255, 0.1);
+  border-bottom-color: rgba(255, 255, 255, 0.05);
+  min-height: 2em;
+}
+#menu .k-item .k-panel,
+#menu .k-link .k-panel {
+  background: rgba(255, 255, 255, 0.05);
 }
