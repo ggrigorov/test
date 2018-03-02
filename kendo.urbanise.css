@@ -3950,3 +3950,7 @@ table.k-editor {
   background-color: #ed7819;
   box-shadow: none;
 }
+#menuLogo {
+  background: rgba(0, 0, 0, 0.87);
+  min-height: 100px;
+}
