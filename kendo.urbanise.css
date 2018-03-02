@@ -3902,7 +3902,7 @@ table.k-editor {
   color: rgba(0, 0, 0, 0.87);
   border: none;
   margin: 0;
-  padding: 0;
+  padding: 0 0 10px 0;
   box-shadow: inset 0 -1px 0 0 #eeeeee;
 }
 #mapOptions .k-block[role="option"] .k-button {
@@ -3913,4 +3913,9 @@ table.k-editor {
 }
 #mapOptions .k-block[role="option"] div:first-child {
   font-size: 14px;
+  font-weight: bold;
+}
+#header {
+  position: relative;
+  z-index: 1000;
 }
