@@ -3910,3 +3910,6 @@ table.k-editor {
 #mapOptions .k-block[role="option"]:hover .k-button {
   display: inline-block;
 }
+#mapOptions .k-block[role="option"] div:first-child {
+  color: red;
+}
