@@ -3935,6 +3935,11 @@ table.k-editor {
   background: #ffffff;
   box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
 }
-.k-slider-selection {
-  background: rgba(255, 255, 255, 0.1);
+.k-draghandle.k-state-focused,
+.k-draghandle.k-state-focused:link,
+.k-flatcolorpicker .k-hue-slider .k-draghandle.k-state-focused,
+.k-flatcolorpicker .k-transparency-slider .k-draghandle.k-state-focused {
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.16), 0 1px 3px rgba(0, 0, 0, 0.23);
+  border-color: #ffffff;
+  background-color: #ffffff;
 }
