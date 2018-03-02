@@ -3943,3 +3943,10 @@ table.k-editor {
   border-color: #ffffff;
   background-color: #ffffff;
 }
+.k-slider-selection {
+  background: #ffffff;
+}
+.k-slider-track {
+  background-color: #ed7819;
+  box-shadow: none;
+}
