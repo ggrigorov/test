@@ -3896,9 +3896,6 @@ table.k-editor {
 #mapOptions .k-widget {
   background: #fafafa;
 }
-#mapOptions .k-widget :first-child {
-  background: red;
-}
 #mapOptions .k-block[role="option"] {
   background: transparent;
   font-family: 'Roboto', sans-serif;
