@@ -3894,7 +3894,11 @@ table.k-editor {
   z-index: 900;
 }
 #mapOptions > .k-widget .k-button {
-  background: red;
+  box-shadow: none;
+  background: none;
+}
+#mapOptions > .k-widget .k-state-selected {
+  background: green;
 }
 #mapOptions .k-widget {
   background: #fafafa;
