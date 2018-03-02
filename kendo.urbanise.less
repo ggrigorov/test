@@ -29,6 +29,7 @@
 @inverted-text-color:#ffffff;
 @overlay-light-color:rgba(255,255,255,0.05);
 @color-gray-light:#fafafa;
+@color-gray-med:#eeeeee;
 @color-gray-dark:#999999;
 
 @import "type-material.less";
@@ -96,6 +97,10 @@
   .k-widget
   {
     background: @color-gray-light;
+    :first-child
+    {
+      background:red;
+    }
   }
   .k-block[role="option"]
   {
@@ -105,7 +110,7 @@
     border: none;
     margin: 0;
     padding: 0 0 10px 0;
-    box-shadow: inset 0 -1px 0 0 @color-gray-dark;
+    box-shadow: inset 0 -1px 0 0 @color-gray-med;
     border-radius: 0;
 
     .k-button
