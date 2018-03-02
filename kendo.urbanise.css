@@ -3903,6 +3903,7 @@ table.k-editor {
   border: none;
   margin: 0;
   padding: 0;
+  box-shadow: inset 0 -1px 0 0 #eeeeee;
 }
 #mapOptions .k-block[role="option"] .k-button {
   display: none;
@@ -3911,5 +3912,5 @@ table.k-editor {
   display: inline-block;
 }
 #mapOptions .k-block[role="option"] div:first-child {
-  color: red;
+  font-size: 14px;
 }
